@@ -20,6 +20,12 @@ Custom a distro with centralized authentification and sync file system, using :
 
 [Zulip](https://github.com/zulip/zulip)
 
+Self made client with :
+- presence status linked to badging hours
+- direct messages
+- meetings creation with group created
+- integrated calendar
+
 ## EXTERNAL COMMUNICATION
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
 
