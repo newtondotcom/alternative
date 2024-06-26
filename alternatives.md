@@ -26,6 +26,8 @@ Self made client with :
 - meetings creation with group created
 - integrated calendar
 
+[Jisti Meet](https://github.com/jitsi/jitsi-meet)
+
 ## EXTERNAL COMMUNICATION
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
 
