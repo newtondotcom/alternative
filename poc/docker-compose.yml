@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  ldap:
+    image: osixia/openldap:1.5.0
+    container_name: ldap
+    environment:
+      LDAP_ORGANISATION: "My Organization"
+      LDAP_DOMAIN: "myorg.com"
+      LDAP_ADMIN_PASSWORD: "admin"
+    ports:
+      - "389:389"
+    volumes:
+      - ldap_data:/var/lib/ldap
+      - ldap_config:/etc/ldap/slapd.d
+
+  phpldapadmin:
+    image: osixia/phpldapadmin:0.9.0
+    container_name: phpldapadmin
+    environment:
+      PHPLDAPADMIN_LDAP_HOSTS: ldap
+    ports:
+      - "6443:443"
+
+  kerberos:
+    build: ./kerberos
+    container_name: kerberos
+    ports:
+      - "88:88"
+      - "464:464"
+    environment:
+      KRB5_KDC: "kdc.myorg.com"
+      KRB5_REALM: "MYORG.COM"
+      KRB5_ADMIN_PASSWORD: "admin"
+
+  debian-client:
+    build: ./debian-client
+    container_name: debian-client
+    depends_on:
+      - ldap
+      - kerberos
+    environment:
+      LDAP_URI: "ldap://ldap"
+      LDAP_BASE_DN: "dc=myorg,dc=com"
+      KERBEROS_REALM: "MYORG.COM"
+      KDC_HOST: "kerberos"
+
+volumes:
+  ldap_data:
+  ldap_config:
