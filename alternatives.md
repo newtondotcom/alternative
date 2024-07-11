@@ -3,10 +3,9 @@
 ## OS
 Custom a distro with centralized authentification and sync file system, using :
 - [Ansible](https://github.com/ansible/ansible) or [Salt](https://github.com/saltstack/salt) for the management and configuration of the users fleet
-- [Kerberos](https://web.mit.edu/kerberos/) for local authentification
 - [OpenLDAP](https://www.openldap.org/) for centralized authentification
-- [CAS](https://github.com/apereo/cas) or [Authelia](https://github.com/authelia/authelia) or [Ory network](https://www.ory.sh/docs/ecosystem/projects) for web authentification
-- [seafile](https://github.com/haiwen/seafile) for file system
+- [KaniDm](https://github.com/kanidm/kanidm) for both unix & radius & web authentification ([CAS](https://github.com/apereo/cas) or [Authelia](https://github.com/authelia/authelia) or [Ory network](https://www.ory.sh/docs/ecosystem/projects) or [Kerberos](https://web.mit.edu/kerberos/) might work but dont cover the 3 layers)
+- [seafile](https://github.com/haiwen/seafile) or [Ceph](https://github.com/ceph/ceph) for file system
 
 # SECURITY
 
