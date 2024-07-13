@@ -9,18 +9,9 @@ services:
       - "3636:3636"
     volumes:
       - kanidmd:/data
-    environment:
-      - KANIDM_BINDADDRESS=[::]:8443
-      - KANIDM_DB_PATH=/data/kanidm.db
-      - KANIDM_TLS_CHAIN=/data/fullchain.pem
-      - KANIDM_TLS_KEY=/data/privkey.pem
-      - KANIDM_DOMAIN=newton-creations.site
-      - KANIDM_ORIGIN=https://newton-creations.site:8443
-      - KANIDM_ONLINE_BACKUP_PATH=/data/kanidm/backups/
-      - KANIDM_ONLINE_BACKUP_SCHEDULE=00 22 * * *
-      - KANIDM_LDAPBINDADDRESS=127.0.0.1:3636
 
 volumes:
   kanidmd:
     external: true
     name: kanidmd
+    # contains tls certs and server.toml
