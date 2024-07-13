@@ -1,0 +1,1 @@
+docker run --rm -i -t -v kanidmd:/data     kanidm/server:latest /sbin/kanidmd configtest -c /data/server.toml
