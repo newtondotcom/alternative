@@ -77,3 +77,8 @@ A unique tool which allows :
 ## EMPLOYEES BENEFITS
 [Password manager](https://github.com/dani-garcia/vaultwarden)
 [Personnal drive with 5GO for example, linked with HR emitted documents](https://github.com/newtondotcom/CoffreTonDoc)
+
+## SECURITY
+[ossec-hids](https://github.com/ossec/ossec-hids)
+[wazuh](https://github.com/wazuh/wazuh)
+[openedr](https://github.com/ComodoSecurity/openedr)
