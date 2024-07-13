@@ -46,8 +46,12 @@ Self made client with :
 - integrated calendar
 
 ### VIDEO
-[Wire](https://github.com/wireapp/wire)
+[BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)
 > Others : [Jisti Meet](https://github.com/jitsi/jitsi-meet), [NextCloud Talk](https://github.com/nextcloud/spreed)
+
+### BOTH
+[Element](https://github.com/element-hq)
+> Others : [Wire](https://github.com/wireapp/wire)
 
 ## EXTERNAL COMMUNICATION
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
