@@ -34,6 +34,9 @@ radius support for vpn
 
 ## INTERNAL COMMUNICATION
 
+### LINGARO PROJECT
+[Linagora project](https://github.com/linagora/twake-workplace)
+
 ### TEXT
 [Mattermost](https://github.com/mattermost/mattermost)
 
