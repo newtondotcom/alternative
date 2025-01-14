@@ -1,6 +1,6 @@
-# Alternatives to MICROSOFT
+# Alternatives to MICROSOFT : myrProject
 
-## OS
+## OS : myrOS
 Custom a distro with centralized authentification and sync file system, using :
 
 ## FLEET
@@ -8,16 +8,16 @@ Custom a distro with centralized authentification and sync file system, using :
 
 > [Salt](https://github.com/saltstack/salt) or [Puppet](https://github.com/puppetlabs/puppet)
 
-## FILE SYSTEM
+## FILE SYSTEM : Dryve
 [Ceph](https://github.com/ceph/ceph) for file system
 - Possibility to give each user a specific subfolder access
 - Provides Block Storage and object gateway Storage (S3)
 
-> Others : [seafile](https://github.com/haiwen/seafile) or 
+> Others : [seafile](https://github.com/haiwen/seafile) or
 
 ## AUTH
 The os should support 2 layers for Authorization and Identification
-For one, the only all in one tool is : [KaniDm](https://github.com/kanidm/kanidm) 
+For one, the only all in one tool is : [KaniDm](https://github.com/kanidm/kanidm)
 Rust, self made db with backups, one common db for web + pam, dedicated unix daemon
 Provides a read-only ldap for specific use cases
 radius support for vpn
@@ -34,7 +34,7 @@ radius support for vpn
 
 ## INTERNAL COMMUNICATION
 
-### LINGARO PROJECT
+### LINGORA PROJECT
 [Linagora project](https://github.com/linagora/twake-workplace)
 
 ### TEXT
@@ -52,18 +52,18 @@ Self made client with :
 [BigBlueButton](https://github.com/bigbluebutton/bigbluebutton)
 > Others : [Jisti Meet](https://github.com/jitsi/jitsi-meet), [NextCloud Talk](https://github.com/nextcloud/spreed)
 
-### BOTH
+### BOTH : Tym
 [Element](https://github.com/element-hq)
 > Others : [Wire](https://github.com/wireapp/wire)
 
-## EXTERNAL COMMUNICATION
+## EXTERNAL COMMUNICATION : Mayl
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
 
 Self made client with a specifity to reduce pollution : don't send throught smtp the internal emails.
 
-## HR TOOLS
+## HR TOOLS: hR
 A unique tool which allows :
-- employees to : 
+- employees to :
     - badge in and out virtually
     - request remote work days
     - request some vacation days
@@ -74,7 +74,7 @@ A unique tool which allows :
     - accept/refuse some vacation days
     - monitor future absences
 - HR to :
-    - 
+    - create Job offerts and manage the recruitment process like Workday
     - emit pay sheets upload into the employee drive
 
 ## EMPLOYEES BENEFITS
