@@ -5,7 +5,7 @@ Custom a distro with centralized authentification and sync file system, using :
 
 ## FLEET
 [Ansible](https://github.com/ansible/ansible) for the management and configuration of the users fleet
-
+[Other](https://github.com/fleetdm/fleet)
 > [Salt](https://github.com/saltstack/salt) or [Puppet](https://github.com/puppetlabs/puppet)
 
 ## FILE SYSTEM : Dryve
