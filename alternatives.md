@@ -14,7 +14,10 @@ Custom a distro with centralized authentification and sync file system, using :
 - Possibility to give each user a specific subfolder access
 - Provides Block Storage and object gateway Storage (S3)
 
-> Others : [seafile](https://github.com/haiwen/seafile) or
+> Others : [seafile](https://github.com/haiwen/seafile)
+
+### SPACE TO EXCHANGE FOLDER
+Self Made client which combines Ceph and KaniDM to provide a space to exchange files and folders in a mail for example, driven by an API
 
 ## AUTH
 The os should support 2 layers for Authorization and Identification
@@ -25,16 +28,12 @@ radius support for vpn
 
 > Others : [CAS](https://github.com/apereo/cas) or [Authelia](https://github.com/authelia/authelia) or [Ory network](https://www.ory.sh/docs/ecosystem/projects) for web-auth and [Kerberos](https://web.mit.edu/kerberos/) for unix authentification
 
-
-# SECURITY
-
 ## Office suite
 [ONLY OFFICE](https://github.com/ONLYOFFICE/DocumentServer)
 
 [CollaboraOnline](https://github.com/CollaboraOnline/online)
 
 ## INTERNAL COMMUNICATION
-
 ### LINGORA PROJECT
 [Linagora project](https://github.com/linagora/twake-workplace)
 
@@ -60,7 +59,7 @@ Self made client with :
 ## EXTERNAL COMMUNICATION : Mayl
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
 
-Self made client with a specifity to reduce pollution : don't send throught smtp the internal emails, report spam and phishing, and use JMAP protocol for the external emails
+Self made client with a specifity to reduce pollution : don't send throught smtp the internal emails, report spam and phishing, and use JMAP protocol for the external emails. Internal mails : dont send attachments, use a link using the dedicated API to the file in the Dryve
 
 ## HR TOOLS: hR
 A unique tool which allows :
