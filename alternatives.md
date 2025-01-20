@@ -60,7 +60,7 @@ Self made client with :
 ## EXTERNAL COMMUNICATION : Mayl
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
 
-Self made client with a specifity to reduce pollution : don't send throught smtp the internal emails.
+Self made client with a specifity to reduce pollution : don't send throught smtp the internal emails, report spam and phishing, and use JMAP protocol for the external emails
 
 ## HR TOOLS: hR
 A unique tool which allows :
