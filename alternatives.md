@@ -7,6 +7,7 @@ Custom a distro with centralized authentification and sync file system, using :
 [Ansible](https://github.com/ansible/ansible) for the management and configuration of the users fleet
 [Other](https://github.com/fleetdm/fleet)
 > [Salt](https://github.com/saltstack/salt) or [Puppet](https://github.com/puppetlabs/puppet)
+> [GLPI](https://github.com/glpi-project/glpi)
 
 ## FILE SYSTEM : Dryve
 [Ceph](https://github.com/ceph/ceph) for file system
