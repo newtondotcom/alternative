@@ -77,6 +77,10 @@ A unique tool which allows :
     - create Job offerts and manage the recruitment process like Workday
     - emit pay sheets upload into the employee drive
 
+## SIGNING TOOL
+-> firefox can become a pdf viewer
+[Docuseal](https://github.com/docusealco/docuseal)
+
 ## EMPLOYEES BENEFITS
 [Password manager](https://github.com/dani-garcia/vaultwarden)
 [Personnal drive with 5GO for example, linked with HR emitted documents](https://github.com/newtondotcom/CoffreTonDoc)
