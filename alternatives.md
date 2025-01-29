@@ -17,7 +17,10 @@ Custom a distro with centralized authentification and sync file system, using :
 > Others : [seafile](https://github.com/haiwen/seafile)
 
 ### SPACE TO EXCHANGE FOLDER
-Self Made client which combines Ceph and KaniDM to provide a space to exchange files and folders in a mail for example, driven by an API
+Self Made client which combines Ceph and KaniDM to provide a space 
+to exchange files and folders in a mail for example, driven by an API
+Interface is opened from webmail and user can chose to give access to 
+current version only or the new versions. 
 
 ## AUTH
 The os should support 2 layers for Authorization and Identification
