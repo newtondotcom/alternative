@@ -59,6 +59,10 @@ Self made client with :
 [Element](https://github.com/element-hq)
 > Others : [Wire](https://github.com/wireapp/wire)
 
+### Ressources and community discussion
+A [wiki](https://github.com/requarks/wiki/tree/main)
+[Discourse](https://github.com/discourse/discourse) for internal community discussion
+
 ## EXTERNAL COMMUNICATION : Mayl
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
 
