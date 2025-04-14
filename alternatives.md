@@ -63,6 +63,10 @@ Self made client with :
 A [wiki](https://github.com/requarks/wiki/tree/main)
 [Discourse](https://github.com/discourse/discourse) for internal community discussion
 
+### PDF Operations
+[Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+[Xournal](https://github.com/xournalpp/xournalpp/)
+
 ## EXTERNAL COMMUNICATION : Mayl
 SMTP Server with [JMAP](https://jmap.io/) support like [StalwartLabs Mail Server](https://github.com/stalwartlabs/mail-server) or [Apache James](https://github.com/apache/james-project)
 
